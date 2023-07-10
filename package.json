@@ -1,0 +1,15 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "This project purposes to train skilles in work with nodeJS and manage version with Git. ",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "raimovir",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
