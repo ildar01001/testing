@@ -1,10 +1,10 @@
 const express = require('express');
 const app = express();
 
+
 const port = 3000;
-app.use('/', function (req, res) {
-    res.send("Hello, Petux!")
-})
+
+app.use('/', express.static('views'));
 
 app.use('/contacts', function(req, res) {
     res.json({
